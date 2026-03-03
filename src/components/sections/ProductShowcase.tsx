@@ -43,11 +43,11 @@ export const ProductShowcase: React.FC = () => {
       </div>
 
       <div className="relative z-20 max-w-5xl mx-auto px-6 space-y-[80vh] pt-[50vh] pb-[50vh]">
-        <div className="feature-text text-center space-y-8 backdrop-blur-2xl bg-stone-900/60 p-16 rounded-[3rem] border border-white/10 shadow-[0_24px_80px_rgba(0,0,0,0.4)]">
+        <div className="feature-text text-center space-y-8 backdrop-blur-2xl bg-stone-900/60 p-8 sm:p-16 rounded-[2rem] sm:rounded-[3rem] border border-white/10 shadow-[0_24px_80px_rgba(0,0,0,0.4)]">
           <div className="w-20 h-20 bg-brand-secondary/20 rounded-full flex items-center justify-center mx-auto text-brand-secondary mb-8 border border-brand-secondary/30">
             <Zap className="w-10 h-10" />
           </div>
-          <h2 className="text-6xl md:text-8xl font-bold tracking-tighter leading-tight italic">Boiler Excellence</h2>
+          <h2 className="text-4xl sm:text-6xl md:text-8xl font-bold tracking-tighter leading-tight italic">Boiler Excellence</h2>
           <p className="text-xl md:text-3xl text-stone-300 font-light leading-relaxed max-w-3xl mx-auto">
             High-efficiency gas boiler upgrades. <span className="text-brand-secondary font-normal">Save on energy</span> with the latest A-rated technology from trusted brands.
           </p>
@@ -57,7 +57,7 @@ export const ProductShowcase: React.FC = () => {
           <div className="w-20 h-20 bg-blue-500/20 rounded-full flex items-center justify-center mx-auto text-blue-400 mb-8 border border-blue-500/30">
             <Volume2 className="w-10 h-10" />
           </div>
-          <h2 className="text-6xl md:text-8xl font-bold tracking-tighter leading-tight italic">Luxury Bathrooms</h2>
+          <h2 className="text-4xl sm:text-6xl md:text-8xl font-bold tracking-tighter leading-tight italic">Luxury Bathrooms</h2>
           <p className="text-xl md:text-3xl text-stone-300 font-light leading-relaxed max-w-3xl mx-auto">
             Bespoke bathroom design and installation. From contemporary wet rooms to classic suites, we handle everything from tiling to plumbing.
           </p>
@@ -67,7 +67,7 @@ export const ProductShowcase: React.FC = () => {
           <div className="w-20 h-20 bg-orange-500/20 rounded-full flex items-center justify-center mx-auto text-orange-400 mb-8 border border-orange-500/30">
             <Smartphone className="w-10 h-10" />
           </div>
-          <h2 className="text-6xl md:text-8xl font-bold tracking-tighter leading-tight italic">Smart Heating</h2>
+          <h2 className="text-4xl sm:text-6xl md:text-8xl font-bold tracking-tighter leading-tight italic">Smart Heating</h2>
           <p className="text-xl md:text-3xl text-stone-300 font-light leading-relaxed max-w-3xl mx-auto">
             Control your comfort from anywhere. Professional installation of Hive, Nest, and smart TRV systems for total efficiency.
           </p>
@@ -77,7 +77,7 @@ export const ProductShowcase: React.FC = () => {
           <div className="w-20 h-20 bg-orange-500/20 rounded-full flex items-center justify-center mx-auto text-orange-400 mb-8 border-orange-500/30">
             <Leaf className="w-10 h-10" />
           </div>
-          <h2 className="text-6xl md:text-8xl font-bold tracking-tighter leading-tight italic">Expert Care</h2>
+          <h2 className="text-4xl sm:text-6xl md:text-8xl font-bold tracking-tighter leading-tight italic">Expert Care</h2>
           <p className="text-xl md:text-3xl text-stone-300 font-light leading-relaxed max-w-3xl mx-auto">
             Decades of local plumbing and heating experience. Reliability you can trust for every tap, radiator, and boiler in Whitstable.
           </p>

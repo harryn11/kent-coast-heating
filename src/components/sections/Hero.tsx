@@ -38,7 +38,7 @@ export const Hero: React.FC = () => {
 
       <div className="relative z-20 max-w-7xl mx-auto text-center space-y-6 lg:space-y-8">
 
-        <h1 className="text-6xl md:text-8xl lg:text-9xl font-bold tracking-tighter text-stone-900 leading-[0.9]">
+        <h1 className="text-5xl sm:text-6xl md:text-8xl lg:text-9xl font-bold tracking-tighter text-stone-900 leading-[0.9]">
           <SplitText delay={0.2}>Whitstable Comfort,</SplitText>
           <br />
           <SplitText delay={0.4} className="text-brand-primary">Done Right.</SplitText>
@@ -48,7 +48,7 @@ export const Hero: React.FC = () => {
           Kent Coast Heating Ltd: Experts in luxury bathroom transformations, high-efficiency boiler installations, and smart heating across Whitstable.
         </p>
 
-        <div className="flex justify-center gap-6 mb-2">
+        <div className="flex flex-wrap justify-center gap-3 sm:gap-6 mb-2">
           <div className="hero-badge flex items-center gap-1.5 px-3 py-1 rounded-full bg-orange-50 border border-orange-100 text-[10px] uppercase tracking-wider font-bold text-orange-700">
             <Check className="w-3 h-3" />
             Gas Safe Registered
@@ -71,7 +71,7 @@ export const Hero: React.FC = () => {
           </div>
         </div>
 
-        <div className="mt-12 lg:mt-20 py-6 px-10 flex flex-wrap justify-center items-center gap-10 opacity-0 animate-fade-in-up bg-white/40 backdrop-blur-2xl rounded-3xl border border-white/40 shadow-[0_8px_32px_rgba(0,0,0,0.04)]" style={{ animationDelay: '1.4s', animationFillMode: 'forwards' }}>
+        <div className="mt-8 lg:mt-20 py-5 px-6 sm:px-10 flex flex-wrap justify-center items-center gap-5 sm:gap-10 opacity-0 animate-fade-in-up bg-white/40 backdrop-blur-2xl rounded-3xl border border-white/40 shadow-[0_8px_32px_rgba(0,0,0,0.04)]" style={{ animationDelay: '1.4s', animationFillMode: 'forwards' }}>
           <span className="text-xs font-bold text-stone-400 uppercase tracking-[0.2em]">Partnered With</span>
           <div className="flex flex-wrap justify-center items-center gap-8 grayscale opacity-60 hover:grayscale-0 hover:opacity-100 transition-all duration-500">
             <span className="text-xl font-black text-stone-800 tracking-tighter">WORCESTER</span>

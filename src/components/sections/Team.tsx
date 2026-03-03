@@ -8,21 +8,21 @@ gsap.registerPlugin(ScrollTrigger);
 
 const engineers = [
   {
-    name: "Arthur Jenkins",
+    name: "Your Name",
     role: "Founder & Master Plumber",
-    image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=2576&auto=format&fit=crop",
+    image: "/avatar-1.png",
     quote: "I've been creating luxury bathrooms in Kent for 30 years. Craftsmanship is my only priority."
   },
   {
-    name: "Tom Jenkins",
+    name: "Your Name",
     role: "Lead Heating Engineer",
-    image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=2574&auto=format&fit=crop",
+    image: "/avatar-2.png",
     quote: "Ensuring every boiler we install is perfectly balanced for maximum efficiency and savings."
   },
   {
-    name: "Marcus Thompson",
+    name: "Your Name",
     role: "Bathroom Designer",
-    image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=2574&auto=format&fit=crop",
+    image: "/avatar-3.png",
     quote: "Great design turns a standard bathroom into a sanctuary. We focus on every detail."
   }
 ];
@@ -59,7 +59,7 @@ export const Team: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
           {engineers.map((engineer, index) => (
             <div key={index} className="team-card group">
-              <div className="relative overflow-hidden rounded-2xl aspect-[3/4] mb-6 shadow-lg bg-stone-100 border border-stone-200">
+              <div className="relative overflow-hidden rounded-2xl aspect-square sm:aspect-[3/4] mb-6 shadow-lg bg-stone-100 border border-stone-200">
                 {engineer.image ? (
                   <img
                     src={engineer.image}
